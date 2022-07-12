@@ -129,9 +129,14 @@ for(let s = 0; s<=4; s++){
 } 
 
 
+// isPalindrome. Write a program to check whether a word is a palindrome or not. Note: a palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or tarrattarrat
 
+const stringToArray = p1.split('')
+console.log ("stringToArray", stringToArray);
+const arrayReverse = stringToArray.reverse()
+console.log("arrayReverse", arrayReverse)
+const joined= arrayReverse.join()
+console.log("joined", joined)
 
-
-
- 
+console.log("the string is a palindrome", joined === p1);
 
